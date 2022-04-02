@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Artist</title>
+    <link rel="stylesheet" href="artist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-title">
+            <h1>Add Artist</h1>
+        </div>
+        <div class="card-body">
+            <div class="card-upper-body">
+                <h3>Artist</h3>
+                <div class="inp">
+                    <input type="text" class="search"  placeholder="Search">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-angle-down"></i>
+
+                </div>
+            </div>
+            <div class="bg">
+
+            <!-- first start -->
+            <div class="card-lower-body">
+                <div class="heading">
+                    <div>Added Artist List</div>
+                    <div>IPI Code</div>
+                    <div>No IPI Code</div>
+                    <div></div>
+                </div>
+                <div class="content">
+                   <div class="firstDIv"> 
+                   <div class="number">1</div>
+                    <img src="pic.png" alt="">
+                    <div>Boob Lee</div>
+                   </div>
+                   <div class="second_num">
+                       3456
+                   </div>
+                   <div class="white-box">
+
+                   </div>
+                   <div class="delete-icon">
+                   <i class="fa fa-trash"></i>
+                   </div>
+
+
+                </div>
+            </div>
+
+<!-- first end -->
+
+            <!-- second start -->
+            <div class="content">
+                <div class="firstDIv"> 
+                <div class="number">2</div>
+                 <img src="pic.png" alt="">
+                 <div>Boob Lee</div>
+                </div>
+                <div class="second_num">
+                    3456
+                </div>
+                <div class="blue-box">
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="delete-icon">
+                <i class="fa fa-trash"></i>
+                </div>
+
+
+             </div>
+
+
+            <!-- second end -->
+
+
+<!-- universal -->
+
+<div  class="universal">
+    <div>
+        <p>universel ipi artist</p>
+    </div>
+    <div>
+        <input type="text" name="" id="">
+    </div>
+</div>
+<!-- universal end -->
+
+<!-- line 4 start -->
+<div class="content">
+    <div class="firstDIv"> 
+    <div class="number">3</div>
+     <img src="pic.png" alt="">
+     <div>Boob Lee</div>
+    </div>
+    <div class="second_num">
+        3456
+    </div>
+    <div class="white-box">
+
+    </div>
+    <div class="delete-icon">
+    <i class="fa fa-trash"></i>
+    </div>
+
+
+ </div>
+
+
+<!-- line 4 end -->
+
+<!-- line 5 start -->
+<div class="content">
+    <div class="firstDIv"> 
+    <div class="number">4</div>
+     <img src="pic.png" alt="">
+     <div>Boob Lee</div>
+    </div>
+    <div class="second_num">
+        3456
+    </div>
+    <div class="white-box">
+
+    </div>
+    <div class="delete-icon">
+    <i class="fa fa-trash"></i>
+    </div>
+
+
+ </div>
+
+
+<!-- line 5 end -->
+
+
+<!-- last line start -->
+<div class="content">
+    <div class="firstDIv"> 
+    <div class="number">5</div>
+     <img src="pic.png" alt="">
+     <div>Boob Lee</div>
+    </div>
+    <div class="second_num">
+        3456
+    </div>
+    <div class="white-box">
+
+    </div>
+    <div class="delete-icon">
+    <i class="fa fa-trash"></i>
+    </div>
+
+
+ </div>
+
+<!-- last line end -->
+
+</div>
+
+        </div>
+        <div class="end">
+            <div>Total Costs</div>
+            <div class="price">$185.00</div>
+        </div>
+        <div class="end_btn">
+            <div class="anlgle-left"><i class="fa fa-angle-left"></i></div>
+            <div class="btnlast"><button>Play & Go</button></div>
+        </div>
+
+    </div>
+
+
+    <script>
+        var white_box=document.querySelectorAll(".white-box").forEach(function(item){
+item.addEventListener("click",function(){
+    item.innerHTML=`<i class="fa fa-check blue-box"></i>`;
+})
+        });
+        // console.log(white_box);
+        
+    </script>
+</body>
+</html>
